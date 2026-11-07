@@ -3,7 +3,9 @@
 [Sheen](https://github.com/danaenayati/sheen) is a free, open-source Mac cleaner, optimizer and malware scanner.
 
 ```bash
-brew install --cask danaenayati/sheen/sheen
+brew tap danaenayati/sheen
+brew trust danaenayati/sheen   # Homebrew asks you to trust third-party taps once
+brew install --cask sheen
 ```
 
 Update with `brew upgrade --cask sheen`, remove with `brew uninstall --cask sheen` (add `--zap` to also remove its settings and logs).
