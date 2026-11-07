@@ -1,6 +1,6 @@
 cask "sheen" do
-  version "1.2.0"
-  sha256 "745dd5a331d970ad582fe61ac299bfa97c2bd96c47a4b0e1809411ffdb8a281c"
+  version "1.2.1"
+  sha256 "a304b03b647413d6324e5b7317034c3e5335ceb1b74cc9798c5960a72cfc575f"
 
   url "https://github.com/danaenayati/sheen/releases/download/v#{version}/Sheen-#{version}.dmg"
   name "Sheen"
